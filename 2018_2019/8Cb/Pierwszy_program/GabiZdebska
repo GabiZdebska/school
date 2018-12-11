@@ -1,1 +1,15 @@
-
+dzielna = float(input("Podaj dzielna"))
+while (dzielna ==0):
+    print("Nie dzielimy przez zero")
+    dzielna = input("Napisz dzielna jeszcze raz")
+print("czyli twoja dzielna to", dzielna)
+dzielnik = float(input("Podaj dzielnik"))
+while (dzielnik ==0):
+    print("Nie dzielimy przez zero")
+    dzielnik = input("Napisz dzielnik jeszcze raz")
+print("czyli twoj dzielnik to", dzielnik)
+if (dzielnik!= 0):
+    print("Wynik:")
+    print(int(dzielna/dzielnik))
+    print("Reszta:")
+    print(dzielna%dzielnik)
